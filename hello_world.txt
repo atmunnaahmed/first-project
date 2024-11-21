@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+
+	int val,val2,sum;
+
+	printf("Enter your first number to be added: ");
+	scanf("%d",&val);
+	
+	printf("Enter another number to be added: ");
+	scanf("%d",&val2);
+
+	sum = val + val2;
+
+	printf("The result of addition is: %d",sum);
+
+
+return 0;
+}
